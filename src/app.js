@@ -485,7 +485,7 @@ class App{
                 this.#life.talentExtend(this.#selectedExtendTalent);
                 this.#selectedExtendTalent = null;
                 this.#talentSelected.clear();
-                this.#totalMax = 20;
+                this.#totalMax = 100;
                 this.#isEnd = false;
                 this.switch('index');
             });
